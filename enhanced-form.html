@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title> Software Developer Internship Application Form</title>
+    </head>
+    <body>
+        <header>
+            <h3>Software Developer Internship Form</h3>
+            <p>Please fill in all the form fields.</p>
+        </header>
+        <main>
+            <section>
+                <h3>About the internship</h3>
+                <p>Benefits of the internship:</p>
+                <ol>
+                    <li>Gain hand-on experience</li>
+                    <li>Work with real-life situations</li>
+                    <li>Grow personally and professionaly</li>
+                    <li>Mentorship from professionals</li>
+                </ol>
+                
+                <p>Note:</p>
+                <ul>
+                    <li>Accomodation will not be provided</li>
+                    <li>Inters will be provided a monthly stipend</li>
+                    <li>Interns will need to have their own realiable transport</li>
+                </ul>
+                <h3>Position Summary</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Role</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Front-end Developer</td>
+                            <td>Focuses on the UI/UX concepts</td>
+                        </tr>
+                        <tr>
+                            <td>Backend Developer</td>
+                            <td>Focuses on the backend like databases</td>
+                        </tr>
+                        <tr>
+                            <td>Fullstack Developer</td>
+                            <td>Does both front-end & backend</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                
+                <div>
+                    <p>Our previous interns in their offices:</p>
+                    <img src="#"><br>
+                    
+                    <video controls>
+                        <source src="#">
+                    </video>
+                </div>
+            </section>
+            <section>
+                <h2>Application form</h2>
+                <form action="#" method="post" autocomplete="on">
+                    <label for="fullname">Fullname:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br>
+
+                    <label for="dateofbirth">Date of birth:</label>
+                    <input type="date" id="dateofbirth" name="dateofbirth" required><br>
+
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="18" required><br>
+
+                    <label for="experience">Experience Level:</label>
+                    <input type="range" id="experience" name="experience" min="0"  max="10"  required><br>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Enter a valid gmail address" required><br>
+
+                    <label for="phone">Mobile number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="\d{3}-\d{3}-\d{4}" placeholder="e.g, 123-456-7890"required><br>
+
+                    <p>what are you mostly interested in:</p>
+                    <label><input type="radio" name="interests" value="front-end development">Front-end development</label>
+                    <label><input type="radio" name="interests" value="backend development">Backend development</label>
+                    <label><input type="radio" name="interests" value="fullstack development">Fullstack development</label><br>
+
+                    <label for="comment">write a comment if any:</label><br>
+                    <textarea id="comment" name="comment" placeholder="write your comment here..." maxlength="200" required></textarea><br>
+                    
+                    <label for="portfolio">Upload portfolio</label>
+                    <input type="file" id="portfolio" name="portfolio" accept=".pdf, .doc, .docx" required><br>
+
+                    <label for="ApplicationNmb">Your Application Number</label>
+                    <input type="text" id="ApplicationNmb" name="ApplicationNmb" value="INT550" readonly><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Software Developer Company</p>
+        </footer>
+    </body>
+</html>
